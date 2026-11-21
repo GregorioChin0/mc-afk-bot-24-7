@@ -5,7 +5,7 @@ function createBot() {
         host: 'Vanillaz724.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 39463,                // Puerto predeterminado de Minecraft
         username: 'BOT_247',    // Nombre genérico del bot/NPC dentro del juego
-        version: 26.3              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: 1.21              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
