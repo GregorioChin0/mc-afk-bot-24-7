@@ -5,7 +5,7 @@ function createBot() {
         host: 'Vanillaz724.aternos.me', 
         port: 39463,                
         username: 'BOT_247',    
-        version: '1.20.4' // <-- Cambiado a una versión ultra estable para evitar fallos de protocolo con ViaVersion
+        version: '1.21.1' // <-- Cambiado a una versión ultra estable para evitar fallos de protocolo con ViaVersion
     });
 
     bot.on('spawn', () => {
